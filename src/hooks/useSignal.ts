@@ -12,7 +12,4 @@ const useSignal = <T = any>(value: T) => {
   )
 }
 
-const initialState = 1
-const state = useSignal(initialState)
-
-console.log(state())
+export default useSignal
